@@ -1,0 +1,32 @@
+#Gorev1-           Kendi isminizde bir virtual environment oluşturunuz, oluşturma esnasında python 3 kurulumu yapınız.
+conda create -n dincer python=3
+#Gorev2-           Oluşturduğunuz environment'ı aktif ediniz.
+conda activate dincer
+#Gorev3-       Yüklü paketleri listeleyiniz.    
+ conda list
+#Gorev4-           Environment içerisine Numpy'ın güncel versiyonunu ve Pandas'ın 1.2.1 versiyonunu aynı anda indiriniz.
+ conda install numpy pandas=1.2.1
+#Gorev5-        İndirilen Numpy'ın versiyonu nedir?    
+Numpy versiyonu numpy.__version__ code  
+python -c "import numpy; print(numpy.__version__)"
+import numpy
+print(numpy.__version__)
+1.21.5
+
+#Gorev6-          Pandas'ı upgrade ediniz. Yeni versiyonu nedir?
+ conda upgrade pandas
+python -c "import pandas; print(pandas.__version__)"
+
+import pandas
+print(pandas.__version__)
+1.4.1
+#Gorev7-            Numpy'ı environment'tan siliniz.
+conda remove numpy
+#Gorev8-            Seaborn ve matplotlib kütüphanesinin güncel versiyonlarını aynı anda indiriniz.
+conda install seaborn matplotlib
+#Gorev9-           Virtual environment içindeki kütüphaneleri versiyon bilgisi ile beraber export ediniz ve yaml dosyasını inceleyiniz.
+ conda env export  > environment.yaml
+#Gorev10-        Oluşturduğunuz environment'i siliniz. Önce environment'i deactivate ediniz. 
+conda deavtivate
+conda env remove  -n dincer
+conda env list
