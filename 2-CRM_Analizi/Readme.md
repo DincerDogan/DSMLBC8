@@ -4,7 +4,7 @@
 ### 2-CRM-Analizi
 
 CRM (Müşteri ilişkileri yönetimi) firmaların satışı, karlılıklarını artırmak için kullandıkları yöntemlerdir. Müşterinin ihtiyacını analiz etmek, müşteriyi anlamak, var olan müşteriyi korumak, sadık müşteriler elde etmek için yapılan tüm çalışmalara verilen isimdir.
-Örnek uygulamalarla CRM çalışmaları yapacağız.
+VBO kruurmuna cok tessekkru ederim.
 ### RFM Analizi
 Müşteri analitiği alanında sık kullanılan bir yöntemdir. Firmalar tarafından müşterileri segmente ayırarak, her bir müşteriye özel firmanın satış ve pazarlama planları yapabilmesini sağlar. R-ecency, F-requency, M-onetary
 Recency(Yenilik): Müşterinin son satın almasından bugüne kadar geçen süre.
