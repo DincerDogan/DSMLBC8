@@ -5,3 +5,5 @@
 ### 2-CRM Analizi (RFM Analizi ve CLTV (Müşteri Yaşam Boyu Değeri))
 ### 3-AB Testi
 ### 4-Recommendation Systems
+### 5-Feature Engineering
+### 6-Machine Learning
